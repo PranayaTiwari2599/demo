@@ -28,6 +28,7 @@ int i=si.createproduct(p1);
 			return " product not";
 		}
 	}
+	//jfdh
 	@DeleteMapping("deleteproduct/{productid}")
 	public String deletecpr(@PathVariable("productid")long l){
 		int i=si.deleteproduct(l);
